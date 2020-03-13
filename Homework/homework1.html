@@ -1,0 +1,152 @@
+<html>
+
+<head>
+    <title>Welcome to J Market</title>
+    <link href="https://fonts.googleapis.com/css?family=Poor+Story&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-image: url('https://imagescdn.gettyimagesbank.com/500/18/618/255/0/962036806.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .wrap {
+            width: 600px;
+            margin: 50px auto 0 auto;
+
+        }
+
+        * {
+
+            font-family: 'Poor Story', cursive;
+        }
+
+        .name>h1 {
+            /* margin: 0 0 10px 0; */
+            text-align: center;
+        }
+
+        .image {
+
+            background-image: url('https://post-phinf.pstatic.net/MjAxNzEyMThfMTk4/MDAxNTEzNTc3NjYyMzYy.bXU_M8wPvXbcDg87GPEAz8Lj8DPJJoAFSJHJZ1hNtvgg.ghK1lgARHh88j0W_AInajbrXAwE4aiuSXsCRCDTu34Mg.JPEG/%EC%84%9D%EA%B3%A0%EB%B0%A9%ED%96%A5%EC%A0%9C.jpg?type=w1200');
+            /* background-size: cover; */
+            background-position: center;
+            width: 600px;
+            height: 350px;
+            border-radius: 30px;
+            margin: auto;
+        }
+
+        .name {
+            font-family: 'Yeon Sung', cursive;
+            font-family: 'Stylish', sans-serif;
+            font-family: 'Song Myung', serif;
+            font-family: 'Viaoda Libre', cursive;
+            font-style: italic;
+            font-weight: bolder;
+            color: darkgreen;
+        }
+
+        .form-post {
+            padding: 1.5rem;
+            margin: 1rem auto;
+            border-color: darkgoldenrod;
+            border-radius: 0.3rem;
+            border: solid;
+            display: block;
+        }
+
+        .mytitle>h2 {
+            margin: 20px 0 0 0;
+        }
+
+        .mytitle>h5 {
+            margin: 5px 0 0 0;
+        }
+
+        .mytitle>h4 {
+            margin: 30px 0 0 0;
+            /* padding: auto; */
+        }
+
+        .mybtn {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            margin-left: 350px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrap">
+
+        <div class="name">
+            <marquee direction="right">
+                <h1> ♥ J 마켓 ♥ </h1>
+                        </marquee>
+
+        </div>
+
+        <div class="image">
+
+        </div>
+
+        <div class="mytitle">
+            <h2> 석고방향제를 골라보세요 ♥ </h2>
+            <h5>가격: 5,000원/개 </h5>
+            <h4> <span style="color:darkslateblue"> 선물하기 좋은 석고방향제 입니다. 향기를 선물해보세요! </span>
+            </h4>
+
+        </div>
+
+        <div class="form-post">
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">주문자 이름</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">수량</label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01">
+                    <option selected> 석고 방향을 고르세요 </option>
+                    <option value="1">베어브릭 방향제</option>
+                    <option value="2">선인장 방향제</option>
+                    <option value="3">돌하르방 방향제</option>
+                </select>
+            </div>
+
+
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">주소</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">전화 번호</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+        </div>
+        <div class="mybtn">
+            <button type="button" class="btn btn-primary">구매하기</button>
+            <button type="button" class="btn btn-success">장바구니</button>
+            <button type="button" class="btn btn-warning">기타문의</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
